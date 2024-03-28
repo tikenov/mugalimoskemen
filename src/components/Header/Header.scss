@@ -1,0 +1,27 @@
+.header {
+    padding: 15px;
+}
+
+.navlink {
+    display: block;
+    line-height: 1;
+    padding: 8px 12px;
+    border-radius: var(--mantine-radius-sm);
+    text-decoration: none;
+    color: #051d3f;
+    font-size: var(--mantine-font-size-sm);
+    font-weight: 500;
+
+    &:hover {
+        background-color: var(--mantine-color-gray-1);
+    }
+
+    &.active {
+        color: var(--mantine-color-mblue-4)
+    }
+}
+
+.drawer {
+    padding: 15px;
+    font-size: 20px;
+}
